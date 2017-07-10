@@ -1,0 +1,1 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\cmsis -I..\usr -I..\fwlib\inc -I..\fwlib\src -I "E:\Keil\ARM\INC" -I "E:\Keil\ARM\INC\ST\STM32F10x" -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -o "..\os_core.o" --omf_browse "..\os_core.crf" --depend "..\os_core.d" "..\ucos\os_core.c"
